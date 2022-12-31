@@ -1,9 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.AI;
 
-public class CrowdControl : MonoBehaviour
+public class AIController : MonoBehaviour
 {
     [SerializeField] private Transform movePositionTransform;
     private UnityEngine.AI.NavMeshAgent navMeshAgent;
